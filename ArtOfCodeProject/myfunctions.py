@@ -86,15 +86,6 @@ def flower(x,y):
     bob.circle(10)
     bob.end_fill()
 
-def maura(x,y):
-    jump(x,y)
-    for times in range(255):
-        bob.width(255 - times)
-        c = (times, 0, times)
-        bob.color(c)
-        bob.forward(100)
-        bob.left(160)
-
 def rose(size):
     for times in range(200):
      bob.circle(size*2)
@@ -117,3 +108,4 @@ def f(size):
         bob.circle(size)
         bob.forward(times * 2)
         bob.left(90)
+
